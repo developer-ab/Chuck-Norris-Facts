@@ -1,0 +1,52 @@
+body{
+    background: #212121;
+    color: bisque;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap :100px
+}
+
+#button{
+    background-color: bisque;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: black;
+    border-top: grey; 
+    height: 100px;
+    width: 200px;
+}
+
+#button:hover{
+    background-color:rgb(255, 200, 132);
+}
+
+#button:focus {
+    box-shadow: 0 0 0 2px rgb(171, 130, 67);
+}
+#button:active {
+    background-color:rgb(129, 89, 39);
+    box-shadow: none;
+}  
+
+#jokearea{
+    font-size: 2em;
+    font-family: cursive;
+    border: 5px solid antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttontext{
+    font-weight: bolder;
+    font-size: 15px;
+}
